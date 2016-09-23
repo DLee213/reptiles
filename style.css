@@ -1,0 +1,79 @@
+h1 {
+	color: #0E8044;
+	text-shadow: 0 0 3px black, 0 0 5px black;
+	}
+p {
+	color: black;
+	}
+body {
+	margin:0;
+}
+
+#navbar {
+    list-style-type: none;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: #0E8044;
+    overflow:hidden;
+    position:fixed;
+    width:100%;
+    top:0;
+    border: 2px solid #08302F;
+}
+	#snake {
+		padding-left: 0;
+		float: left;
+		width: 33%;
+		height: 60%;
+		top: 0;
+		border: 2px;
+
+
+	}
+	#centerpic {
+		position: absolute;
+top: 0; bottom:0; left: 0; right:0;
+margin: auto;
+
+	}
+	#cham {
+		padding-left: 0;
+		float: left;
+		width: 60%;
+		height: 60%;
+		top: 0;
+		border: 2px;
+
+
+	}
+ .navitem a.active {
+ 	background-color: #D48CF8;
+ 	color:#0E8044;
+}
+.navitem a {
+    display: block;
+    width: auto;
+    color: #b5E582;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+ .navitem {
+ 	text-align:center;
+ 	display: inline;
+ 	float:left;
+ 	border-right:1px solid white;
+}
+ .navitem:last-child {
+
+}
+ .navitem a:hover:not(.active) {
+   /*change the background and the text color make them contrasting*/
+   background-color: #b5E582;
+   color:#0E8044;
+}
+/*this is for the div containing our whole body other than the nav bar*/
+#main {
+	margin-top:30px;
+	padding:20px;
+}
